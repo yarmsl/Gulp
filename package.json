@@ -1,10 +1,11 @@
 {
   "name": "at74-2",
   "version": "2.0.0",
-  "description": "сборка галп ат",
+  "description": "Gulp",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
   },
   "author": "Y.",
   "license": "ISC",

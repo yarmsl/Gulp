@@ -51,7 +51,7 @@ function browserSync(params) {
         server: {
             baseDir: "./" + project_folder + "/"
         },
-        port: 3000,
+        port: 4000,
         notify: false
     });
 }
@@ -150,12 +150,12 @@ gulp.task('svgSprite', function () {
             mode: {
                 stack: {
                     sprite: "../icons/icons.svg",
-                    //example: true //пример в html
-                }
+                    example: true
+                },
             },
         }
         ))
-        .pipe(dest(path.build.img));
+        .pipe(dest([source_folder + '/img']));
 });
 /* Конец отдельно запускаемых функций */
 
